@@ -18,6 +18,7 @@ body {
   text-align: center;
   width: 100%;
   max-width: 30rem;
+  max-height: 80vh;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -31,7 +32,7 @@ body {
 .icon {
   width: 3rem; /* Set a fixed width */
   height: 3rem; /* Set a fixed height */
-  margin-right: 1,5rem;
+  margin-right: 1.5rem;
 }
 
 .text {
@@ -192,7 +193,7 @@ h1 {
   color: rgb(133, 182, 255);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   body {
     padding: 0.5rem; /* Added padding for mobile */
   }
