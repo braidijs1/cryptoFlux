@@ -193,26 +193,26 @@ h1 {
   color: rgb(133, 182, 255);
 }
 
-@media (max-width: 100%) {
+@media (max-width: 600) {
   body {
-    padding: 0.5rem; /* Added padding for mobile */
+    padding: 1vh; /* Added padding for mobile */
   }
 
   .container {
-    padding: 1rem; /* Adjusted padding */
+    padding: 1vh; /* Adjusted padding */
   }
 
   .icon {
-    width: 2rem; /* Adjusted width */
-    height: 2rem; /* Adjusted height */
+    width: 3vh; /* Adjusted width */
+    height: 3vh; /* Adjusted height */
   }
 
   .crypto, .flux {
-    font-size: 1.5rem; /* Adjusted font size */
+    font-size: 2vh; /* Adjusted font size */
   }
 
   input, button {
     width: 100%; /* Full width for mobile */
-    padding: 1.5rem; /* Adjusted padding */
+    padding: 1vh; /* Adjusted padding */
   }
 }
