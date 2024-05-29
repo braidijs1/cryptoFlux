@@ -6,15 +6,15 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  padding: 10px; /* Added padding to avoid content touching screen edges */
+  padding: 0.5rem; /* Added padding to avoid content touching screen edges */
   box-sizing: border-box; /* Include padding in height calculation */
 }
 
 .container {
   background: #fff;
-  padding: 20px; /* Adjusted padding */
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem; /* Adjusted padding */
+  border-radius: 1.5rem;
+  box-shadow: 0 0.1rem 1.5rem rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
   max-width: 30rem;
@@ -29,9 +29,9 @@ body {
 }
 
 .icon {
-  width: 50px; /* Set a fixed width */
-  height: 50px; /* Set a fixed height */
-  margin-right: 10px;
+  width: 3rem; /* Set a fixed width */
+  height: 3rem; /* Set a fixed height */
+  margin-right: 1,5rem;
 }
 
 .text {
@@ -42,19 +42,19 @@ body {
 .crypto {
   color: #1E90FF;
   font-weight: bold;
-  font-size: 24px; /* Set font size */
+  font-size: 1.5rem; /* Set font size */
 }
 
 .flux {
   color: #00BFFF;
   font-weight: normal;
-  font-size: 24px; /* Set font size */
+  font-size: 1.5rem; /* Set font size */
 }
 
 input {
   width: 90%;
-  padding: 15px; /* Adjusted padding */
-  margin-bottom: 20px; /* Adjusted margin */
+  padding: 1rem; /* Adjusted padding */
+  margin-bottom: 1.5rem; /* Adjusted margin */
   border: 2px solid #ddd;
   border-radius: 25px;
   outline: none;
@@ -66,11 +66,11 @@ input:focus {
 }
 
 button {
-  padding: 10px 20px; /* Adjusted padding */
+  padding: 0.5rem 1.5rem; /* Adjusted padding */
   border: none;
   background: #007bff;
   color: #fff;
-  border-radius: 25px;
+  border-radius: 1.75rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin: 5px; /* Adjusted margin */
@@ -81,23 +81,23 @@ button:hover {
 }
 
 #tokenomics {
-  margin-top: 20px; /* Adjusted margin */
+  margin-top: 1.5rem; /* Adjusted margin */
   text-align: left;
   opacity: 0;
   animation: slideIn 0.5s forwards;
 }
 
 .tokenomics-item {
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
   background: #f9f9f9;
-  border-left: 5px solid #007bff;
-  border-radius: 5px;
+  border-left: 0.25rem solid #007bff;
+  border-radius:  0.25rem ;
   animation: fadeInUp 0.5s ease-in-out;
 }
 
 .tokenomics-item:hover {
-  border-left: 5px solid #003f83;
+  border-left:  0.25rem  solid #003f83;
 }
 
 .tokenomics-item span, a {
@@ -142,7 +142,7 @@ button:hover {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 5rem; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -156,8 +156,8 @@ button:hover {
 .modal-content, .trendingModal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 1rem;
+  border: 0.1rem solid #888;
   width: 80%;
   max-width: 50%;
 }
@@ -178,8 +178,8 @@ p {
 }
 
 #rocket, #thumb {
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
   transition: width 0.2s ease, height 0.2s ease;
 }
 
@@ -194,24 +194,24 @@ h1 {
 
 @media (max-width: 600px) {
   body {
-    padding: 10px; /* Added padding for mobile */
+    padding: 0.5rem; /* Added padding for mobile */
   }
 
   .container {
-    padding: 20px; /* Adjusted padding */
+    padding: 1rem; /* Adjusted padding */
   }
 
   .icon {
-    width: 40px; /* Adjusted width */
-    height: 40px; /* Adjusted height */
+    width: 2rem; /* Adjusted width */
+    height: 2rem; /* Adjusted height */
   }
 
   .crypto, .flux {
-    font-size: 20px; /* Adjusted font size */
+    font-size: 1.5rem; /* Adjusted font size */
   }
 
   input, button {
     width: 100%; /* Full width for mobile */
-    padding: 15px; /* Adjusted padding */
+    padding: 1.5rem; /* Adjusted padding */
   }
 }
