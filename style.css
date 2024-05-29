@@ -215,4 +215,7 @@ h1 {
     width: 100%; /* Full width for mobile */
     padding: 1vh; /* Adjusted padding */
   }
+  html, body { /* this allows the children to inherit this style */
+    font-size: 2vh;
+ }
 }
