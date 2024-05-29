@@ -103,9 +103,9 @@ function displayTokenomics(data) {
 
 </div>
   `;
-  document.getElementById("voteText").textContent=`How do you feel about ${data.symbol.toUpperCase()} today?`;
+ // document.getElementById("voteText").textContent=`How do you feel about ${data.symbol.toUpperCase()} today?`;
   document.getElementById("favourite").removeAttribute("hidden");
-  vote.removeAttribute("hidden");
+ // vote.removeAttribute("hidden");
   console.log(data.image.small);
   tokenomicsDiv.style.opacity = '0';
   setTimeout(() => {
